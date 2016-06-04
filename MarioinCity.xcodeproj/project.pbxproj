@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4F23141CFD8C0200E36A15 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4F23131CFD8C0200E36A15 /* AVFoundation.framework */; };
+		EB4F23171CFE9E6C00E36A15 /* 08-you-re-dead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB4F23161CFE9E6C00E36A15 /* 08-you-re-dead.mp3 */; };
+		EB9E57401CF069F70040CF5C /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9E573F1CF069F70040CF5C /* MainScene.m */; };
+		EB9E57431CF06A210040CF5C /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9E57421CF06A210040CF5C /* City.m */; };
+		EB9E57461CF06A340040CF5C /* Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9E57451CF06A340040CF5C /* Cloud.m */; };
+		EB9E57491CF06A630040CF5C /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9E57481CF06A630040CF5C /* Block.m */; };
+		EBF1DAFF1CEDBE0700E9FFED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF1DAFE1CEDBE0700E9FFED /* main.m */; };
+		EBF1DB021CEDBE0700E9FFED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF1DB011CEDBE0700E9FFED /* AppDelegate.m */; };
+		EBF1DB0A1CEDBE0700E9FFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF1DB091CEDBE0700E9FFED /* Assets.xcassets */; };
+		EBF1DB0D1CEDBE0700E9FFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF1DB0B1CEDBE0700E9FFED /* LaunchScreen.storyboard */; };
+		EBF1DB191CEDBEB300E9FFED /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF1DB181CEDBEB300E9FFED /* Scene.m */; };
+		EBF1DB1C1CEDC04600E9FFED /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF1DB1B1CEDC04600E9FFED /* Sprite.m */; };
+		EBF51F411CF5921B00AFE70C /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F2F1CF5921B00AFE70C /* gameover.png */; };
+		EBF51F421CF5921B00AFE70C /* marioKilled.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F301CF5921B00AFE70C /* marioKilled.png */; };
+		EBF51F431CF5921B00AFE70C /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F311CF5921B00AFE70C /* ball.png */; };
+		EBF51F441CF5921B00AFE70C /* clown.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F321CF5921B00AFE70C /* clown.png */; };
+		EBF51F451CF5921B00AFE70C /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F331CF5921B00AFE70C /* block.png */; };
+		EBF51F461CF5921B00AFE70C /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F341CF5921B00AFE70C /* fireball.png */; };
+		EBF51F471CF5921B00AFE70C /* cloud3.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F351CF5921B00AFE70C /* cloud3.png */; };
+		EBF51F481CF5921B00AFE70C /* cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F361CF5921B00AFE70C /* cloud2.png */; };
+		EBF51F491CF5921B00AFE70C /* cloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F371CF5921B00AFE70C /* cloud1.png */; };
+		EBF51F4A1CF5921B00AFE70C /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F381CF5921B00AFE70C /* city.png */; };
+		EBF51F4B1CF5921B00AFE70C /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F391CF5921B00AFE70C /* 8.png */; };
+		EBF51F4C1CF5921B00AFE70C /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F3A1CF5921B00AFE70C /* 6.png */; };
+		EBF51F4D1CF5921B00AFE70C /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F3B1CF5921B00AFE70C /* 7.png */; };
+		EBF51F4E1CF5921B00AFE70C /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F3C1CF5921B00AFE70C /* 4.png */; };
+		EBF51F4F1CF5921B00AFE70C /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F3D1CF5921B00AFE70C /* 5.png */; };
+		EBF51F501CF5921B00AFE70C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F3E1CF5921B00AFE70C /* 2.png */; };
+		EBF51F511CF5921B00AFE70C /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F3F1CF5921B00AFE70C /* 3.png */; };
+		EBF51F521CF5921B00AFE70C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF51F401CF5921B00AFE70C /* 1.png */; };
+		EBFAF3DD1CF6ADAC0093F4F3 /* SuperMario.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF3DC1CF6ADAC0093F4F3 /* SuperMario.m */; };
+		EBFAF3E01CF6E7310093F4F3 /* FireBall.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF3DF1CF6E7310093F4F3 /* FireBall.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB4F23131CFD8C0200E36A15 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EB4F23161CFE9E6C00E36A15 /* 08-you-re-dead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08-you-re-dead.mp3"; sourceTree = "<group>"; };
+		EB9E573E1CF069F70040CF5C /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		EB9E573F1CF069F70040CF5C /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		EB9E57411CF06A210040CF5C /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		EB9E57421CF06A210040CF5C /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		EB9E57441CF06A340040CF5C /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
+		EB9E57451CF06A340040CF5C /* Cloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloud.m; sourceTree = "<group>"; };
+		EB9E57471CF06A630040CF5C /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		EB9E57481CF06A630040CF5C /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		EBF1DAFA1CEDBE0700E9FFED /* MarioinCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioinCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF1DAFE1CEDBE0700E9FFED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBF1DB001CEDBE0700E9FFED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBF1DB011CEDBE0700E9FFED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBF1DB091CEDBE0700E9FFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF1DB0C1CEDBE0700E9FFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF1DB0E1CEDBE0700E9FFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF1DB171CEDBEB300E9FFED /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		EBF1DB181CEDBEB300E9FFED /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		EBF1DB1A1CEDC04600E9FFED /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		EBF1DB1B1CEDC04600E9FFED /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		EBF51F2F1CF5921B00AFE70C /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		EBF51F301CF5921B00AFE70C /* marioKilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marioKilled.png; sourceTree = "<group>"; };
+		EBF51F311CF5921B00AFE70C /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		EBF51F321CF5921B00AFE70C /* clown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clown.png; sourceTree = "<group>"; };
+		EBF51F331CF5921B00AFE70C /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		EBF51F341CF5921B00AFE70C /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
+		EBF51F351CF5921B00AFE70C /* cloud3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud3.png; sourceTree = "<group>"; };
+		EBF51F361CF5921B00AFE70C /* cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud2.png; sourceTree = "<group>"; };
+		EBF51F371CF5921B00AFE70C /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
+		EBF51F381CF5921B00AFE70C /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
+		EBF51F391CF5921B00AFE70C /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		EBF51F3A1CF5921B00AFE70C /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		EBF51F3B1CF5921B00AFE70C /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		EBF51F3C1CF5921B00AFE70C /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		EBF51F3D1CF5921B00AFE70C /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		EBF51F3E1CF5921B00AFE70C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		EBF51F3F1CF5921B00AFE70C /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		EBF51F401CF5921B00AFE70C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		EBFAF3DB1CF6ADAC0093F4F3 /* SuperMario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperMario.h; sourceTree = "<group>"; };
+		EBFAF3DC1CF6ADAC0093F4F3 /* SuperMario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperMario.m; sourceTree = "<group>"; };
+		EBFAF3DE1CF6E7310093F4F3 /* FireBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireBall.h; sourceTree = "<group>"; };
+		EBFAF3DF1CF6E7310093F4F3 /* FireBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireBall.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF1DAF71CEDBE0700E9FFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4F23141CFD8C0200E36A15 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4F23151CFE9E5A00E36A15 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EB4F23161CFE9E6C00E36A15 /* 08-you-re-dead.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		EBF1DAF11CEDBE0700E9FFED = {
+			isa = PBXGroup;
+			children = (
+				EB4F23131CFD8C0200E36A15 /* AVFoundation.framework */,
+				EBF1DAFC1CEDBE0700E9FFED /* MarioinCity */,
+				EBF1DAFB1CEDBE0700E9FFED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF1DAFB1CEDBE0700E9FFED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF1DAFA1CEDBE0700E9FFED /* MarioinCity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF1DAFC1CEDBE0700E9FFED /* MarioinCity */ = {
+			isa = PBXGroup;
+			children = (
+				EB4F23151CFE9E5A00E36A15 /* Sounds */,
+				EBF51F2E1CF591B300AFE70C /* Images */,
+				EBF1DB001CEDBE0700E9FFED /* AppDelegate.h */,
+				EBF1DB011CEDBE0700E9FFED /* AppDelegate.m */,
+				EBF1DB141CEDBE3E00E9FFED /* GameCore */,
+				EBF1DB151CEDBE4700E9FFED /* Scene */,
+				EBF1DB161CEDBE5300E9FFED /* Sprite */,
+				EBF1DB091CEDBE0700E9FFED /* Assets.xcassets */,
+				EBF1DB0B1CEDBE0700E9FFED /* LaunchScreen.storyboard */,
+				EBF1DB0E1CEDBE0700E9FFED /* Info.plist */,
+				EBF1DAFD1CEDBE0700E9FFED /* Supporting Files */,
+			);
+			path = MarioinCity;
+			sourceTree = "<group>";
+		};
+		EBF1DAFD1CEDBE0700E9FFED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF1DAFE1CEDBE0700E9FFED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF1DB141CEDBE3E00E9FFED /* GameCore */ = {
+			isa = PBXGroup;
+			children = (
+				EBF1DB171CEDBEB300E9FFED /* Scene.h */,
+				EBF1DB181CEDBEB300E9FFED /* Scene.m */,
+				EBF1DB1A1CEDC04600E9FFED /* Sprite.h */,
+				EBF1DB1B1CEDC04600E9FFED /* Sprite.m */,
+			);
+			name = GameCore;
+			sourceTree = "<group>";
+		};
+		EBF1DB151CEDBE4700E9FFED /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EB9E573E1CF069F70040CF5C /* MainScene.h */,
+				EB9E573F1CF069F70040CF5C /* MainScene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		EBF1DB161CEDBE5300E9FFED /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				EB9E57411CF06A210040CF5C /* City.h */,
+				EB9E57421CF06A210040CF5C /* City.m */,
+				EB9E57441CF06A340040CF5C /* Cloud.h */,
+				EB9E57451CF06A340040CF5C /* Cloud.m */,
+				EB9E57471CF06A630040CF5C /* Block.h */,
+				EB9E57481CF06A630040CF5C /* Block.m */,
+				EBFAF3DB1CF6ADAC0093F4F3 /* SuperMario.h */,
+				EBFAF3DC1CF6ADAC0093F4F3 /* SuperMario.m */,
+				EBFAF3DE1CF6E7310093F4F3 /* FireBall.h */,
+				EBFAF3DF1CF6E7310093F4F3 /* FireBall.m */,
+			);
+			name = Sprite;
+			sourceTree = "<group>";
+		};
+		EBF51F2E1CF591B300AFE70C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EBF51F2F1CF5921B00AFE70C /* gameover.png */,
+				EBF51F301CF5921B00AFE70C /* marioKilled.png */,
+				EBF51F311CF5921B00AFE70C /* ball.png */,
+				EBF51F321CF5921B00AFE70C /* clown.png */,
+				EBF51F331CF5921B00AFE70C /* block.png */,
+				EBF51F341CF5921B00AFE70C /* fireball.png */,
+				EBF51F351CF5921B00AFE70C /* cloud3.png */,
+				EBF51F361CF5921B00AFE70C /* cloud2.png */,
+				EBF51F371CF5921B00AFE70C /* cloud1.png */,
+				EBF51F381CF5921B00AFE70C /* city.png */,
+				EBF51F391CF5921B00AFE70C /* 8.png */,
+				EBF51F3A1CF5921B00AFE70C /* 6.png */,
+				EBF51F3B1CF5921B00AFE70C /* 7.png */,
+				EBF51F3C1CF5921B00AFE70C /* 4.png */,
+				EBF51F3D1CF5921B00AFE70C /* 5.png */,
+				EBF51F3E1CF5921B00AFE70C /* 2.png */,
+				EBF51F3F1CF5921B00AFE70C /* 3.png */,
+				EBF51F401CF5921B00AFE70C /* 1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF1DAF91CEDBE0700E9FFED /* MarioinCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF1DB111CEDBE0700E9FFED /* Build configuration list for PBXNativeTarget "MarioinCity" */;
+			buildPhases = (
+				EBF1DAF61CEDBE0700E9FFED /* Sources */,
+				EBF1DAF71CEDBE0700E9FFED /* Frameworks */,
+				EBF1DAF81CEDBE0700E9FFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarioinCity;
+			productName = MarioinCity;
+			productReference = EBF1DAFA1CEDBE0700E9FFED /* MarioinCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF1DAF21CEDBE0700E9FFED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Xmob - Longdt";
+				TargetAttributes = {
+					EBF1DAF91CEDBE0700E9FFED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EBF1DAF51CEDBE0700E9FFED /* Build configuration list for PBXProject "MarioinCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF1DAF11CEDBE0700E9FFED;
+			productRefGroup = EBF1DAFB1CEDBE0700E9FFED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF1DAF91CEDBE0700E9FFED /* MarioinCity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF1DAF81CEDBE0700E9FFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF51F4C1CF5921B00AFE70C /* 6.png in Resources */,
+				EBF51F461CF5921B00AFE70C /* fireball.png in Resources */,
+				EBF1DB0D1CEDBE0700E9FFED /* LaunchScreen.storyboard in Resources */,
+				EBF51F491CF5921B00AFE70C /* cloud1.png in Resources */,
+				EBF51F471CF5921B00AFE70C /* cloud3.png in Resources */,
+				EBF51F511CF5921B00AFE70C /* 3.png in Resources */,
+				EBF51F4F1CF5921B00AFE70C /* 5.png in Resources */,
+				EBF51F501CF5921B00AFE70C /* 2.png in Resources */,
+				EBF51F451CF5921B00AFE70C /* block.png in Resources */,
+				EBF51F521CF5921B00AFE70C /* 1.png in Resources */,
+				EBF51F431CF5921B00AFE70C /* ball.png in Resources */,
+				EBF1DB0A1CEDBE0700E9FFED /* Assets.xcassets in Resources */,
+				EB4F23171CFE9E6C00E36A15 /* 08-you-re-dead.mp3 in Resources */,
+				EBF51F441CF5921B00AFE70C /* clown.png in Resources */,
+				EBF51F4A1CF5921B00AFE70C /* city.png in Resources */,
+				EBF51F4B1CF5921B00AFE70C /* 8.png in Resources */,
+				EBF51F411CF5921B00AFE70C /* gameover.png in Resources */,
+				EBF51F4E1CF5921B00AFE70C /* 4.png in Resources */,
+				EBF51F4D1CF5921B00AFE70C /* 7.png in Resources */,
+				EBF51F481CF5921B00AFE70C /* cloud2.png in Resources */,
+				EBF51F421CF5921B00AFE70C /* marioKilled.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF1DAF61CEDBE0700E9FFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFAF3E01CF6E7310093F4F3 /* FireBall.m in Sources */,
+				EBF1DB191CEDBEB300E9FFED /* Scene.m in Sources */,
+				EBF1DB021CEDBE0700E9FFED /* AppDelegate.m in Sources */,
+				EB9E57461CF06A340040CF5C /* Cloud.m in Sources */,
+				EB9E57431CF06A210040CF5C /* City.m in Sources */,
+				EB9E57401CF069F70040CF5C /* MainScene.m in Sources */,
+				EB9E57491CF06A630040CF5C /* Block.m in Sources */,
+				EBF1DB1C1CEDC04600E9FFED /* Sprite.m in Sources */,
+				EBFAF3DD1CF6ADAC0093F4F3 /* SuperMario.m in Sources */,
+				EBF1DAFF1CEDBE0700E9FFED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBF1DB0B1CEDBE0700E9FFED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF1DB0C1CEDBE0700E9FFED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF1DB0F1CEDBE0700E9FFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF1DB101CEDBE0700E9FFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF1DB121CEDBE0700E9FFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarioinCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Longdt.MarioinCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBF1DB131CEDBE0700E9FFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarioinCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Longdt.MarioinCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF1DAF51CEDBE0700E9FFED /* Build configuration list for PBXProject "MarioinCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF1DB0F1CEDBE0700E9FFED /* Debug */,
+				EBF1DB101CEDBE0700E9FFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF1DB111CEDBE0700E9FFED /* Build configuration list for PBXNativeTarget "MarioinCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF1DB121CEDBE0700E9FFED /* Debug */,
+				EBF1DB131CEDBE0700E9FFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF1DAF21CEDBE0700E9FFED /* Project object */;
+}
